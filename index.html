@@ -25,18 +25,80 @@
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
-            primarycolor:'red',
-          }
+            // clifford: '#da373d',
+            clifford: 'rgb(171, 239, 95)',
+            // Primary:'rgb(171, 239, 95)',
+           
+            accent: 'rgba(171, 239, 95, 0.2)',
+          },
+
+          fontFamily: { 'Manrope',
+          },
         }
       }
     }
   </script>
 
 </head>
-<body class="container mx-auto">
-    <h1 class="bg-clifford" >nsjadnoasndlajn lndlw j ckckwjc  </h1>
-    <button class="btn btn-primary">buttn</button>
-    <i class="fa-solid fa-bars"></i>
+<body class="container mx-auto font-Manrope">
+    <!-- header section -->
+    <header>
+        <!-- navber -->
+         <nav class="w-11/12 mx-auto">
+            <div class="navbar ">
+                <div class="navbar-start ">
+                  
+                  <a class="btn btn-ghost text-xl">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg font-md text-slate-500">
+                    <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>home</a></li>
+                    <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>service</a></li>
+                    <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>portfolio</a></li>
+                    <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>blogs</a></li>
+                    <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>about us</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                                            
+                    <div class="hidden md:block lg:block">
+                        <div class="flex gap-2">
+                            <button class=" btn rounded-full flex items-center gap-2 transform-none ">
+                                <i class="fa-solid fa-cart-shopping"></i>
+    
+                            </button>
+                            <button class="btn rounded-full flex items-center mr-2">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+    
+                            </button>
+                    </div>
+                    </div>
+                        <a class="btn bg-lime-500 rounded-3xl hidden md:block lg:block pt-4 ">Book Consult <i class="fa-solid fa-arrow-right -rotate-45"></i></a>
+
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars"></i> 
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-medium right-0 gap-4">
+                      <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>home</a></li>
+                    <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>service</a></li>
+                    <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>portfolio</a></li>
+                    <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>blogs</a></li>
+                    <li class=" hover:text-black hover:font-extrabold transition-colors duration-300 ease-in-out"><a>about us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+         </nav>
+    </header>
+ 
+    <!-- <i class="fa-solid fa-bars"></i> -->
+
+<!-- 
+    <h1 class="text-7xl font-extrabold
+     text-slate-900 font-Manrope">amar sonar bangla ami tomay bhalobasi</h1> -->
 </body>
 </html>
