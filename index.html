@@ -20,25 +20,16 @@
 
 
   <!--  tailwind config cdn -->
-<script>
+  <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            // clifford: '#da373d',
-            clifford: 'rgb(171, 239, 95)',
-            // Primary:'rgb(171, 239, 95)',
+            clifford: '#da373d',
+          }
            
-            accent: 'rgba(171, 239, 95, 0.2)',
-          },
-          backgroundImage: {
-        'hero-pattern': "url('/img/')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        }
       }
-          
-        
-    }
-  }
     }
   </script>
 
@@ -141,18 +132,18 @@
               <!-- card two -->
               <div class="flex gap-5 mb-4 p-3 md:pr-0 md:px-3 lg:py-4 rounded-3xl bg-white">
                 <div class=" flex items-center justify-center text-center my-auto ">
-                  <img  src="./assets/commercial.png" alt="">
+                  <img  src="./assets/residential.png" alt="">
                 </div>
                 <div>
-                  <h4 class="font-bold mb-0 sm:mb-0 xl:mb-4 lg:mb-1 text-2xl">Commercial</h4>
+                  <h4 class="font-bold mb-0 sm:mb-0 xl:mb-4 lg:mb-1 text-2xl">Residential</h4>
                 <p class="h-[100%]">The barn house captivates with its blend <br> of rustic charm and modern.</p>
                 </div>
               </div> 
             </div>
           </div>
 
-          <div class="m-auto">
-            <img src="./assets/Rectangle.png" alt="">
+          <div class="m-auto ">
+            <img class="h-full lg:h-[499px] lg:w-[561px]" src="./assets/Rectangle.png" alt="">
           </div>
 
 
@@ -160,6 +151,49 @@
         </div>
 
         
+      </section>
+
+      <!-- work process section -->
+      <section class="container px-20 pt-14">
+
+       <div class="grid items-center justify-center mb-7 text-center">
+        <button class="btn bg-white mx-auto px-2 text-xl font-semibold rounded-3xl py-1"><i class="fa-solid fa-arrow-right "></i> how we works</button>
+        <h4 class="font-extrabold mt-2 text-xl sm:text-4xl text-slate-900 mb-5">Our Works Process</h4>
+        <p > If you're looking for some truly inspiring work in progress <br> quotes then you'll love this high quality collection.</p>
+       </div>
+
+
+        <div class="grid sm:grid-cols-4 gap-4 pb-10 grid-cols-1">
+          <div class=" p-7 bg-pink-200 rounded-xl ">
+            <img src="./assets/concept.png" alt="">
+            <h4 class="font-bold text-lg text-black">Concept</h4>
+            <p class="text-gray-600 text-md">This concept can be influenced by a  <br> variety of factors, such as <br> the intended use of the building,
+  
+            </p>
+          </div>
+          <div class=" p-7 bg-amber-200 rounded-xl ">
+            <img src="./assets/flow-chart.png" alt="">
+            <h4 class="font-bold text-lg text-black">Design progress</h4>
+            <p lass="text-gray-600 text-md">This concept can be influenced by a  <br> variety of factors, such as <br> the intended use of the building,
+  
+            </p>
+          </div>
+          <div class=" p-7 bg-teal-200 rounded-xl ">
+            <img src="./assets/vision.png" alt="">
+            <h4 class="font-bold text-lg text-black">Supervision</h4>
+            <p lass="text-gray-600 text-md">This concept can be influenced by a  <br> variety of factors, such as <br> the intended use of the building,
+  
+            </p>
+          </div>
+          <div class=" p-7 bg-sky-300 rounded-xl ">
+            <img src="./assets/budget-planning.png" alt="">
+            <h4 class="font-bold text-lg text-black">Budget Planning</h4>
+           
+            <p class="text-gray-600 text-md">This concept can be influenced by a  <br> variety of factors, such as <br> the intended use of the building,
+  
+            </p>
+          </div>
+        </div>
       </section>
 
     </main>
