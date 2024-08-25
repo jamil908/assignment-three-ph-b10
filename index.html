@@ -26,12 +26,16 @@
         extend: {
           colors: {
             clifford: '#da373d',
-          }
+          },
+          backgroundImage: {
+            'custom-image': "url('./assets/bg.jpg')",
            
+          }
         }
       }
     }
   </script>
+  
 
 </head>
 <body class="container mx-auto font-Manrope">
@@ -100,9 +104,9 @@
           </section>
 
     </header>
-    <main class="bg-gray-100">
+    <main >
       <!-- about us section -->
-      <section class="">
+      <section class="bg-gray-100 ">
         <img src="./assets/Vector.png" alt="">
 
 
@@ -154,7 +158,7 @@
       </section>
 
       <!-- work process section -->
-      <section class="container px-20 pt-14">
+      <section class="container px-20 pt-14 bg-gray-100">
 
        <div class="grid items-center justify-center mb-7 text-center">
         <button class="btn bg-white mx-auto  text-xl font-semibold rounded-3xl px-3 py-1"><i class="fa-solid fa-arrow-right "></i> how we works</button>
@@ -199,7 +203,7 @@
 
       <!-- article and news section  -->
         
-      <section class="container px-20 pt-14">
+      <section class="container mb px-20 pt-14 bg-gray-100">
 
         <div class="grid items-center justify-center mb-7 text-center">
           <button class="btn bg-lime-200 mx-auto hover:bg-lime-500 text-xl font-semibold rounded-3xl px-4 py-1"><i class="fa-solid fa-arrow-right "></i>Rinterio News</button>
@@ -208,7 +212,7 @@
          </div>
 
          <!-- article  card -->
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-5  pb-9">
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-5   pb-9">
 
             <!-- card one -->
             <div class="p-1 sm:p-5 bg-white rounded-xl">
@@ -257,6 +261,31 @@
             </div>
           </div>
   
+      </section>
+
+      <!-- form section  -->
+      <section class="container  bg-custom-image bg-no-repeat bg-cover mt-2 px-20 pt-10">
+        <div class="grid items-center justify-center mb-7 text-center">
+          <button class="btn bg-lime-200 mx-auto hover:bg-lime-500 text-xl font-semibold rounded-3xl px-4 py-1"><i class="fa-solid fa-arrow-right "></i>Let’s Connect</button>
+          <h4 class="font-extrabold mt-2 text-xl sm:text-4xl text-slate-900 mb-5">Let’s Discuss Next Project</h4>
+          <p > If you're looking for some truly inspiring work in progress <br> quotes then you'll love this high quality collection.</p>
+         </div>
+
+         <div>
+          <form action="" class="grid grid-cols-2 w-7/12 mx-auto gap-4">
+            <input type="text" placeholder="Full name* " class="input rounded-3xl input-bordered w-full max-w-xs" />
+            <input type="text" placeholder="Last name*" class="input rounded-3xl input-bordered w-full max-w-xs" />
+            <input type="text" placeholder="Phone number*" class="input rounded-3xl input-bordered w-full max-w-xs" />
+            <input type="text" placeholder="your email*" class="input rounded-3xl input-bordered w-full max-w-xs" />
+            <textarea class="textarea textarea-bordered col-span-2 h-52 rounded-3xl" placeholder="Enter your massage here"></textarea>
+
+            <button class="bg-lime-300 w-8/12 col-span-2 mx-auto mt-4 rounded-3xl font-bold text-2xl p-2 text-center items-center mb-32 ">
+              sand mail<i class="fa-solid fa-arrow-right bg-black text-white p-2 rounded-full mx-4"></i>
+             </button>
+          </form>
+       
+         </div>
+
       </section>
 
     </main>
