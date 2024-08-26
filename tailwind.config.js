@@ -1,11 +1,11 @@
+// tailwind.config.js
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
-    theme: {
-      extend: {
-        backgroundImage:{
-          'my-image':"url(./assets/bg.jpg)"
-        }
+  theme: {
+    extend: {
+      boxShadow: {
+        'lightgray-custom': '0px 2px 65px 17px rgba(211, 211, 211, 0.6)', // Light gray color with opacity
       },
     },
-    plugins: [],
-  }
+  },
+  plugins: [],
+}
