@@ -54,7 +54,7 @@
             <div class="navbar flex justify-between">
                 <div class="navbar-start w-[62%] ">
                   
-                  <a class=" font-bold text-2xl   ">  <button class="btn rounded-full s py-0 bg-lime-400 text-black text-2xl  hover:bg-lime-600"><i class=" fa-solid fa-arrow-right -rotate-45"></i></button> Rinterio</a>
+                  <a class=" font-bold text-xl   ">  <button class="btn rounded-full s py-0 bg-lime-400 text-black text-2xl  hover:bg-lime-600"><i class=" fa-solid fa-arrow-right -rotate-45"></i></button> Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-lg left-0 font-md text-slate-500">
@@ -104,7 +104,7 @@
           <section class="bg-zinc-50 pb-20">
             <img class="mx-auto w-1/3 lg:w-2/5 xl:w-[45%]" src="./assets/banner.png" alt="">
             <div class="flex items-center justify-center">
-                <h1 class="lg:text-5xl  lg:my-7 text-center text-black w3/4 m-auto font-extrabold my-2  text-xl">A barn house of this design has a <br> striking appearance</h1>
+                <h1 class="lg:text-5xl  lg:my-7 text-center text-black w3/4 m-auto font-extrabold my-2  text-6xl">A barn house of this design has a <br> striking appearance</h1>
             </div>
             <p class="flex items-center justify-center mx-auto text-center text-sm mb-2 dark-gray">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal </BR> accents, and large windows that flood the space with natural light.</p>
             <a class="btn bg-lime-300 hover:bg-lime-400 text-xl font-bold rounded-3xl flex items-center justify-center mx-auto text-center w-60 border-0">Book Consult <button class="px-2 py-1 mt-[2px] rounded-full border-0 bg-lime-400 hover:bg-lime-500 text-white text-2xl "><i class=" fa-solid fa-arrow-right -rotate-45"></i></button> </a>
@@ -115,16 +115,19 @@
     <main >
       <!-- about us section -->
       <section class="bg-gray-100 ">
-        <img src="./assets/Vector.png" alt="">
+        <div class="hidden sm:block" >
+          <img src="./assets/Vector.png" alt="">
+
+        </div>
 
 
         <div class="lg:flex px-20 container gap-5">
 
           <!-- about us text colum -->
           <div class="gap-0 xl:gap-7 grid">
-            <div class="mb-5 gap-4">
+            <div class="mb-5 gap-4 grid items-center justify-center text-center " >
               <button class="btn bg-white px-6 text-xl font-semibold rounded-3xl py-1"><i class="fa-solid fa-arrow-right "></i> about us</button>
-              <h4 class="font-extrabold text-4xl text-slate-900 mb-5">We design thoughtful,<br> liveable spaces</h4>
+              <h4 class="font-bold text-2xl sm:text-3xl text-slate-900 mb-5">We design thoughtful,<br> liveable spaces</h4>
               <p  class="font-semibold text-gray-500">Combining elements of Spanish, Italian,  <br>and French design, the Mediterranean <br> interior design style is essentially <br> a different spin on coastal style.</p>
             </div>
 
@@ -171,7 +174,7 @@
 
        <div class="grid items-center justify-center mb-7 text-center">
         <button class="btn bg-white mx-auto  text-xl font-semibold rounded-3xl px-3 py-1"><i class="fa-solid fa-arrow-right "></i> how we works</button>
-        <h4 class="font-extrabold mt-2 text-xl sm:text-4xl text-slate-900 mb-5">Our Works Process</h4>
+        <h4 class="font-bold mt-2 text-2xl sm:text-3xl text-slate-900 mb-5">Our Works Process</h4>
         <p > If you're looking for some truly inspiring work in progress <br> quotes then you'll love this high quality collection.</p>
        </div>
 
@@ -216,7 +219,7 @@
 
         <div class="grid items-center justify-center mb-7 text-center">
           <button class="btn bg-lime-200 mx-auto hover:bg-lime-500 text-xl font-semibold rounded-3xl px-4 py-1"><i class="fa-solid fa-arrow-right "></i>Rinterio News</button>
-          <h4 class="font-extrabold mt-2 text-xl sm:text-4xl text-slate-900 mb-5">Read Our Articles and News</h4>
+          <h4 class="font-bold mt-2 text-2xl sm:text-3xl text-slate-900 mb-5">Read Our Articles and News</h4>
           <p > If you're looking for some truly inspiring work in progress <br> quotes then you'll love this high quality collection.</p>
          </div>
 
@@ -273,25 +276,24 @@
       </section>
 
       <!-- form section  -->
-      <section class="container  bg-custom-image bg-no-repeat bg-cover w-[99%] m-2 px-20 pt-10">
+      <section class="container  bg-custom-image bg-no-repeat bg-cover w-[99%] m-2 sm:px-20 sm:pt-10 p-2">
         <div class="grid items-center justify-center mb-7 text-center">
           <button class="btn bg-lime-200 mx-auto hover:bg-lime-500 text-xl font-semibold rounded-3xl px-4 py-1"><i class="fa-solid fa-arrow-right "></i>Let’s Connect</button>
           <h4 class="font-extrabold mt-2 text-xl sm:text-4xl text-slate-900 mb-5">Let’s Discuss Next Project</h4>
           <p > If you're looking for some truly inspiring work in progress <br> quotes then you'll love this high quality collection.</p>
          </div>
 
-         <div>
-          <form action="" class="grid grid-cols-2 w-full sm:w-7/12 mx-auto gap-4">
-            <input type="text" placeholder="Full name* " class="input rounded-3xl input-bordered w-full " />
-            <input type="text" placeholder="Last name*" class="input rounded-3xl input-bordered w-full " />
-            <input type="text" placeholder="Phone number*" class="input rounded-3xl input-bordered w-full " />
-            <input type="text" placeholder="your email*" class="input rounded-3xl input-bordered w-full " />
-            <textarea class="textarea textarea-bordered col-span-2 h-52 rounded-3xl" placeholder="Enter your massage here"></textarea>
-
-           
+    
+          <form action="" class=" sm:grid sm:grid-cols-2  w-full sm:w-7/12 mx-auto gap-4">
+            <input type="text" placeholder="Full name* " class="input rounded-3xl mb-2 input-bordered w-full" />
+            <input type="text" placeholder="Last name*" class="input rounded-3xl mb-2 input-bordered w-full" />
+            <input type="text" placeholder="Phone number*" class="input rounded-3xl mb-2 input-bordered w-full" />
+            <input type="text" placeholder="Your email*" class="input rounded-3xl mb-2 input-bordered w-full" />
+            <textarea class="textarea textarea-bordered col-span-2 h-52 rounded-3xl w-full min-w-0" placeholder="Enter your message here"></textarea>
           </form>
        
-         </div>
+        
+        
 <div class="mx-auto sm:w-7/12">
   <button class="bg-lime-300 text-center  font-bold text-xl; sm:text-2xl p-2 px-2 hover:bg-lime-600 mt-8  w-full  items-center  sm:px-20 rounded-full mx-auto"> sand mail <i class="fa-solid fa-arrow-right bg-black text-white p-2 rounded-full  sm:mx-4"></i></button>
 
@@ -304,14 +306,14 @@
 
     <footer class="bg-dark-gray container">
       <div class="sm:p-20 p-5 items-center mx-auto grid justify-center text-center">
-        <h1 class="font-extrabold text-3xl text-white"><i class="fa-solid fa-arrow-right bg-lime-300 text-black p-2 rounded-full  sm:mx-4"></i>Ranterio  </h1>
+        <h2 class="font-extrabold text-3xl text-white"><i class="fa-solid fa-arrow-right bg-lime-300 text-black p-2 rounded-full  sm:mx-4"></i>Ranterio  </h2>
         <p class="text-xl text-gray-500 font-bold my-5">Thankyou for visiting our Renterio . <br> We are dedicated to  satisfying our customer to make happy life with Renterio. <br> Stay Connect with our //facebook page :Renterio </p>
-        <div class="flex sm:flex-row flex-col justify-around text-slate-300 font-bold text-lg my-5 w-full">
-          <p>Home</p>
-          <p>Service</p>
-          <p>Portfolio</p>
-          <p>Blogs</p>
-          <p>Contact us</p>
+        <div class="flex sm:flex-row flex-col justify-around text-slate-300 font-bold text-lg my-5 w-full ">
+          <p class=" hover:text-lime-200 hover:font-extrabold transition-colors duration-300 ease-in-out">Contact us</p>
+          <p class=" hover:text-lime-200 hover:font-extrabold transition-colors duration-300 ease-in-out">Service</p>
+          <p class=" hover:text-lime-200 hover:font-extrabold transition-colors duration-300 ease-in-out">Home</p>
+          <p class=" hover:text-lime-200  hover:font-extrabold transition-colors duration-300 ease-in-out">Portfolio</p>
+          <p class=" hover:text-lime-200  hover:font-extrabold transition-colors duration-300 ease-in-out">Blogs</p>
         </div>
         <div class="mx-auto w-full sm:w-7/12">
           <button class="bg-lime-300 text-center  font-bold text-xl; sm:text-2xl p-2 px-2 hover:bg-lime-600 mt-8 w-full sm:w-8/12  items-center  sm:px- rounded-full mx-auto"> sand mail <i class="fa-solid fa-arrow-right bg-black text-white p-2 rounded-full  sm:mx-4"></i></button>
